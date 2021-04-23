@@ -1,0 +1,19 @@
+.appWrapper {
+	display: flex;
+     
+
+	main {
+	   flex: 1;
+	}
+}
+
+@media screen and (max-width: 900px) {
+     .appWrapper {
+          justify-content: space-between;
+          flex-direction: column;
+
+          main {
+          	  flex-direction: initial;
+          }
+     }
+}
